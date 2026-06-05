@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <style>
+    .bg{fill:#eef3f8}
+    .nav{fill:#ffffff;stroke:#dde4ed;stroke-width:1}
+    .panel{fill:#ffffff;stroke:#d8e1eb;stroke-width:1}
+    .title{font:700 30px/1.2 'Arial',sans-serif;fill:#132739}
+    .subtitle{font:400 16px/1.2 'Arial',sans-serif;fill:#546878}
+    .label{font:600 14px 'Arial',sans-serif;fill:#2b3c4f}
+    .input{fill:#f3f7fb;stroke:#dce7f1}
+    .button{fill:#1f78d1}
+    .link{fill:#1f78d1;font:600 13px 'Arial',sans-serif}
+  </style>
+  <rect class="bg" width="1200" height="800"/>
+  <rect class="nav" x="0" y="0" width="1200" height="80"/>
+  <text x="40" y="52" class="title" font-size="24">Ebhaan Diabetes Risk Calculator</text>
+  <text x="1040" y="52" class="link">Login</text>
+
+  <g transform="translate(80,120)">
+    <rect class="panel" x="0" y="0" width="1040" height="320" rx="14"/>
+    <text class="title" x="32" y="48">Assess Your Diabetes Risk</text>
+    <text class="subtitle" x="32" y="88">Complete a quick screening or full assessment to see personalized risk insights.</text>
+
+    <g transform="translate(32,120)">
+      <rect class="input" x="0" y="0" width="220" height="46" rx="10"/>
+      <text class="label" x="14" y="30">Age</text>
+      <rect class="input" x="240" y="0" width="180" height="46" rx="10"/>
+      <text class="label" x="254" y="30">BMI</text>
+      <rect class="input" x="440" y="0" width="180" height="46" rx="10"/>
+      <text class="label" x="454" y="30">Family History</text>
+      <rect class="input" x="640" y="0" width="180" height="46" rx="10"/>
+      <text class="label" x="654" y="30">Activity</text>
+      <rect class="button" x="840" y="0" width="180" height="46" rx="10"/>
+      <text x="890" y="32" fill="#fff" font-family="Arial" font-weight="700" font-size="16">Start Assessment</text>
+    </g>
+  </g>
+
+  <g transform="translate(80,470)">
+    <rect class="panel" x="0" y="0" width="320" height="220" rx="14"/>
+    <text class="label" x="24" y="36">Quick Assessment</text>
+    <text class="subtitle" x="24" y="64">Fast screening with 6 essential inputs.</text>
+  </g>
+  <g transform="translate(420,470)">
+    <rect class="panel" x="0" y="0" width="320" height="220" rx="14"/>
+    <text class="label" x="24" y="36">Full Risk Evaluation</text>
+    <text class="subtitle" x="24" y="64">Detailed risk results and personalized guidance.</text>
+  </g>
+  <g transform="translate(760,470)">
+    <rect class="panel" x="0" y="0" width="320" height="220" rx="14"/>
+    <text class="label" x="24" y="36">History & Tracking</text>
+    <text class="subtitle" x="24" y="64">View previous assessments and progress over time.</text>
+  </g>
+</svg>

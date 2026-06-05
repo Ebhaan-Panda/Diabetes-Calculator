@@ -1,0 +1,57 @@
+{
+  "screenshots_captured": [
+    "homepage",
+    "results_page",
+    "quick_assessment",
+    "risk_assessment_output",
+    "homepage_mockup",
+    "quick_assessment_form",
+    "history_table"
+  ],
+  "base_url": "http://127.0.0.1:8001",
+  "timestamp": "2026-05-23 14:12:25",
+  "descriptions": {
+    "homepage": {
+      "title": "Homepage with full assessment form",
+      "description": "Shows the main landing page with input form for full assessment",
+      "url": "http://127.0.0.1:8001/",
+      "note": "Demonstrates responsive form design with helper text and pill-button navigation."
+    },
+    "results_page": {
+      "title": "Results page showing risk assessment output",
+      "description": "Shows complete risk assessment results with charts and recommendations",
+      "url": "http://127.0.0.1:8001/submit",
+      "note": "Displays risk category badge, input summary, factor breakdown, and actionable recommendations."
+    },
+    "quick_assessment": {
+      "title": "Quick assessment mode form",
+      "description": "Streamlined form with only 6 key inputs",
+      "url": "http://127.0.0.1:8001/",
+      "note": "Demonstrates reduced input fields for rapid screening. Requires form toggle interaction."
+    },
+    "risk_assessment_output": {
+      "title": "Risk assessment output mockup",
+      "description": "Illustrates the risk result screen, score badge, breakdown, and recommendations.",
+      "url": "http://127.0.0.1:8001/submit",
+      "note": "Useful for report diagrams showing how output is presented to the user."
+    },
+    "homepage_mockup": {
+      "title": "Homepage mockup",
+      "description": "A landing page overview with quick start controls and navigation cards.",
+      "url": "http://127.0.0.1:8001/",
+      "note": "Provides a visual of the app homepage and entry points for assessments."
+    },
+    "quick_assessment_form": {
+      "title": "Quick assessment form mockup",
+      "description": "A clean illustration of the quick assessment data entry page.",
+      "url": "http://127.0.0.1:8001/",
+      "note": "Can be used as a report image for the simplified screening workflow."
+    },
+    "history_table": {
+      "title": "Assessment history tracking interface",
+      "description": "Shows saved assessment history in browser local storage",
+      "url": "http://127.0.0.1:8001/",
+      "note": "Displays chronological assessment records with name, age, risk category, and timestamp."
+    }
+  }
+}
